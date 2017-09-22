@@ -38,5 +38,40 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="4Ps-EE-o7D">
+            <objects>
+                <viewController id="uiR-hG-2wa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HP1-fq-m2c">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="💒" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oAh-AI-afc">
+                                <rect key="frame" x="78.5" y="60" width="218" height="239"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="200"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vegas Weddings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jAY-PO-Jv1">
+                                <rect key="frame" x="123.5" y="349" width="128" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jAY-PO-Jv1" firstAttribute="centerX" secondItem="HP1-fq-m2c" secondAttribute="centerX" id="0kR-jj-egY"/>
+                            <constraint firstItem="oAh-AI-afc" firstAttribute="centerX" secondItem="HP1-fq-m2c" secondAttribute="centerX" id="3es-5d-kzP"/>
+                            <constraint firstItem="oAh-AI-afc" firstAttribute="top" secondItem="p8L-oL-7J1" secondAttribute="top" constant="40" id="YPo-6v-aeo"/>
+                            <constraint firstItem="jAY-PO-Jv1" firstAttribute="top" secondItem="oAh-AI-afc" secondAttribute="bottom" constant="50" id="bjj-qM-izC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="p8L-oL-7J1"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6sF-uF-DTS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="700" y="32"/>
+        </scene>
     </scenes>
 </document>
